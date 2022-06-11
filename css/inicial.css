@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+
+}
+ .header {
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color: #70B282;
+  padding: 1rem;
+  justify-content: space-between;
+ }
+
+.container {
+  max-width: 500px;
+  font-family: 'Inter', sans-serif;
+  padding: 0rem;
+
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #51835F;
+  max-width: max-content;
+  padding: 1rem 2.5rem;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+} 
+
+
+.cor-1 {
+  color: #70B282;
+}
+.cor-2 {
+  color: #51835F;
+}
+.color-3 {
+  color: #FFFFFF;
+}
+
+
+.title{
+  text-align: center;
+  color: #51835F;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+
+
+
+.imagem {
+  width: 40%;
+  height: 370px;
+  background-color: #70B282;
+  margin: auto; 
+}
+
+.text-img{
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.mais{
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.suahorta{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.desespero{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+
+
+
+.div-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top:20px;
+  width: 100vw;
+  background-color:#70B282;
+  color: #FFFFFF;
+  align-self: center;
+  
+}
