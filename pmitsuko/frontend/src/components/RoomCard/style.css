@@ -1,0 +1,15 @@
+.room-card {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.room-info {
+  margin-left: 10px;
+}
+
+.room-name {
+  font-size: 1rem;
+  text-align: center;
+}

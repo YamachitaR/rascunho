@@ -1,0 +1,60 @@
+.header {
+  background: #001529;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.content {
+  color: #001529;
+  background-color: #f5f5f5;
+  font-family: Roboto Condensed;
+  margin: 60px 30px 30px;
+}
+
+.breadcrumb {
+  margin: 16px 0;
+}
+
+.align-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-user-info {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+a:focus {
+  outline: auto;
+}

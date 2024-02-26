@@ -1,0 +1,51 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/jsx-runtime"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "react",
+      "react-hooks",
+      "@typescript-eslint",
+      "prettier",
+      "import"
+    ],
+    "settings": {
+      "react": {
+        "version": "18.2.0"
+      }
+    },
+    "rules": {
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "prettier/prettier": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".tsx"
+          ]
+        }
+      ],
+      "import/prefer-default-export": "off",
+      "import/extensions": "off",
+      "no-undef": "off"
+    }
+}

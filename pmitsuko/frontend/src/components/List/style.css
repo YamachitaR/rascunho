@@ -1,0 +1,65 @@
+.text-description {
+  color: #5a5a5a;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-list .ant-list-item {
+  padding: 12px 10px;
+}
+
+.ant-list-split .ant-list-item {
+  border-block-color: #001529;
+}
+
+.ant-list-split .ant-list-item:last-child {
+  border-block-end: 1px solid #001529;
+}
+
+.ant-list-split .ant-list-item.gray {
+  border-block-color: rgba(5, 5, 5, 0.06);
+}
+
+.user-item:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.user-item-active {
+  border-left: 5px solid hsl(215, 99%, 54%);
+}
+
+.text-details {
+  color: #5a5a5a;
+  font-size: 0.85rem;
+  margin-right: 4px;
+}
+
+.avatar-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.status-online {
+  background-color: #389e0d;
+}
+
+.status-playing {
+  background-color: #cf1322;
+}
+
+.status-offline {
+  background-color: #8c8c8c;
+}
