@@ -1,0 +1,26 @@
+<!-- myapp/templates/myapp/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'myapp/css/styles.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Task List</h1>
+        <div class="mb-3">
+            <input type="text" id="title" class="form-control" placeholder="Title">
+            <textarea id="description" class="form-control mt-2" placeholder="Description"></textarea>
+            <button class="btn btn-primary mt-2" onclick="addTask()">Add Task</button>
+        </div>
+        <div id="task-list" class="list-group">
+            <!-- Tasks will be loaded here -->
+        </div>
+    </div>
+    <script src="{% static 'myapp/js/app.js' %}"></script>
+</body>
+</html>

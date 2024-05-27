@@ -1,0 +1,16 @@
+<!-- myapp/templates/myapp/index.html -->
+
+{% extends "myapp/base.html" %}
+{% block content %}
+<div>
+    <h1>Task List</h1>
+    <div class="mb-3">
+        <input type="text" id="title" class="form-control" placeholder="Title">
+        <textarea id="description" class="form-control mt-2" placeholder="Description"></textarea>
+        <button class="btn btn-primary mt-2" onclick="addTask()">Add Task</button>
+    </div>
+    <div id="task-list" class="list-group">
+        <!-- Tasks will be loaded here -->
+    </div>
+</div>
+{% endblock %}
